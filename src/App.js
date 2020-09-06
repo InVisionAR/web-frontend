@@ -22,14 +22,14 @@ export default function App() {
           </ul>
         </nav>
         <Switch>
+          <Route path="/apply">
+            <Apply />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
           <Route path="/">
             <Home />
-          </Route>
-          <Route path="/apply">
-            <Apply />
           </Route>
         </Switch>
       </div>

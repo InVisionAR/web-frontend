@@ -9,12 +9,12 @@ looking at InVisionAR for the first time.
 - NodeJS(latest)
 - Git
 - A code editor of your choice
-  - Visual Studio Code is reccomended
+  - Visual Studio Code is recommended.
 
 ## Setting up the devlopment environment
 
 1. Fork this repository
-2. Clone the repository using `git clone`. Clone the repo in your account.
+2. Clone the fork you made using `git clone` under your account.
 3. `cd` or open it in a code editor
 4. Open a terminal inside the folder(you can do this with `` Ctrl + `  `` on VSCode)
 5. Run `git remote add upstream https://github.com/InVisionAR/web-frontend.git` to set the root repository as the upstream remote.
@@ -23,11 +23,11 @@ looking at InVisionAR for the first time.
    - If the new branch name is a bug fix, prefix the branch name with `bugfix/`. For example, `bugfix/signup-error`
 7. Switch to the new branch with `git checkout new-branch-name`.
 8. Run `npm install`. This might take a while.
-9. Run `npm run start` inside the folder to start a devlopment server.
+9. Run `npm start` inside the folder to start a devlopment server.
 10. Start working!
-11. Commit changes regularly with `git commit -m "commit message"`.
+11. Stage and commit changes regularly with `git add <relevant files>` and `git commit -m "commit message"`, respectively.
 12. Push your changes regularly with `git commit origin new-branch-name`
-13. Pull changes from upstream master regulary with `git pull upstream master`. Run step 6 after pulling from upstream master. If there are merge conflicts, ask for help.
+13. Pull changes from upstream master regulary with `git pull upstream master`. **Run step 6 after pulling from upstream master**. If there are merge conflicts, ask for help.
 14. When you are ready to push your changes to the root master, log on to GitHub.com and create a pull request from your branch(`new-branch-name`, for exmaple) to the master branch of the main repository.
 15. Wait for code review.
 16. Fix things according to review feedback.

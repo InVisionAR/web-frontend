@@ -8,23 +8,34 @@ import "./App.sass";
 export default function App() {
   return (
     <Router>
-      <div>
-        <nav className="navbar">
-          <div className="navbar-brand">
-            <a href="/" className="navbar-item">
-              <img src="https://bulma.io/images/bulma-logo.png" alt="Logo" />
-            </a>
-            <a
-              role="button"
-              className="navbar-burger burger"
-              aria-label="menu"
-              aria-expanded="false"
-              data-target="navbarBasicExample"
-            >
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-              <span aria-hidden="true"></span>
-            </a>
+      <nav className="navbar">
+        <div className="navbar-brand">
+          <a href="/" className="navbar-item">
+            <img src="https://bulma.io/images/bulma-logo.png" alt="Logo" />
+          </a>
+          <a
+            role="button"
+            className="navbar-burger burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navbar" className="navbar-menu">
+          <div className="navbar-start">
+            <Link className="navbar-item" to="/">
+              Home
+            </Link>
+            <Link className="navbar-item" to="/about">
+              About Us
+            </Link>
+            <Link className="navbar-item" to="/apply">
+              Join the team!
+            </Link>
           </div>
           <div id="navbar" className="navbar-menu">
             <div className="navbar-start">
@@ -51,19 +62,19 @@ export default function App() {
               </div>
             </div>
           </div>
-        </nav>
-        <Switch>
-          <Route path="/apply">
-            <Apply />
-          </Route>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
-      </div>
+        </div>
+      </nav>
+      <Switch>
+        <Route path="/apply">
+          <Apply />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
     </Router>
   );
 }

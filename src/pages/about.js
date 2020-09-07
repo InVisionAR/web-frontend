@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import PersonBox from "components/pages/about/PersonBox";
 
 export default function About() {
   return (
@@ -50,29 +51,67 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="section" id="web-team">
-        <div className="container">
+      <section className="section team" id="web-team">
+        <div className="container is-fluid">
           <h1 className="title">Web Development Team</h1>
+          <div className="columns is-multiline">
+            <PersonBox name="somebody" caption="Web Development Team Leader" />
+            <PersonBox name="that" />
+            <PersonBox name="I" />
+            <PersonBox name="used" />
+            <PersonBox name="to" />
+          </div>
         </div>
       </section>
-      <section className="section" id="app-team">
+      <section className="section team" id="app-team">
         <div className="container">
           <h1 className="title">App Development Team</h1>
+          <div className="columns is-multiline">
+            <PersonBox name="somebody" caption="App Development Team Leader" />
+            <PersonBox name="that" />
+            <PersonBox name="I" />
+            <PersonBox name="used" />
+            <PersonBox name="to" />
+          </div>
         </div>
       </section>
-      <section className="section" id="content-team">
+      <section className="section team" id="content-team">
         <div className="container">
           <h1 className="title">Content Management Team</h1>
+          <div className="columns is-multiline">
+            <PersonBox
+              name="somebody"
+              caption="Content Management Team Leader"
+            />
+            <PersonBox name="that" />
+            <PersonBox name="I" />
+            <PersonBox name="used" />
+            <PersonBox name="to" />
+          </div>
         </div>
       </section>
-      <section className="section" id="graphics-team">
+      <section className="section team" id="graphics-team">
         <div className="container">
           <h1 className="title">Graphic Design Team</h1>
+          <div className="columns is-multiline">
+            <PersonBox name="somebody" caption="Graphic Design Team Leader" />
+            <PersonBox name="that" />
+            <PersonBox name="I" />
+            <PersonBox name="used" />
+            <PersonBox name="to" />
+          </div>
         </div>
       </section>
-      <section className="section" id="social-media-team">
+      <section className="section team" id="social-media-team">
         <div className="container">
           <h1 className="title">Social Media Management Team</h1>
+          <div className="columns is-multiline">
+            <PersonBox name="somebody" caption="Social Media Team Leader" />
+            <PersonBox name="that" />
+            <PersonBox name="I" />
+            <PersonBox name="used" />
+            <PersonBox name="to" />
+          </div>
         </div>
       </section>
     </>

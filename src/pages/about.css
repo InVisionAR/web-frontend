@@ -1,0 +1,8 @@
+.is-flex {
+  flex-direction: column;
+  align-items: center;
+}
+
+.box > .title {
+  font-size: 25px;
+}

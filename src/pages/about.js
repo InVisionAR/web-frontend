@@ -29,7 +29,7 @@ export default function About() {
                   />
                 </figure>
                 <p className="title">Shricharan K. S.</p>
-                <p>
+                <p className="has-text-centered">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>
@@ -45,7 +45,7 @@ export default function About() {
                   />
                 </figure>
                 <p className="title">Tejas A.</p>
-                <p>
+                <p className="has-text-centered">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 </p>

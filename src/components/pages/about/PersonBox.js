@@ -8,10 +8,10 @@ export default function PersonBox({ name, caption = "" }) {
   return (
     <div className="column is-one-fifth person-box">
       <div className="box is-flex">
-        <figure className="image is-128x128">
+        <figure className="image">
           <img
             className="is-rounded"
-            src="https://bulma.io/images/placeholders/128x128.png"
+            src="https://via.placeholder.com/150"
             alt={name}
           />
         </figure>

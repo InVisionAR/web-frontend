@@ -3,7 +3,15 @@
   align-items: center;
 }
 
-.box > .title {
+#leaders .box {
+  box-shadow: none;
+}
+
+#leaders .box > .title {
   font-size: 25px;
   margin-top: 15px;
+}
+
+.team .box {
+  box-shadow: none;
 }

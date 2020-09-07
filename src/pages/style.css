@@ -8,6 +8,13 @@
     font-size: 30px;
 }
 
+.logo-img {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: block;
+}
+
 #title {
     text-align: center;
     color: #D90429;

@@ -25,6 +25,7 @@ export default function Apply() {
             frameborder="0"
             marginheight="0"
             marginwidth="0"
+            title="Application form"
           >
             Loading…
           </iframe>

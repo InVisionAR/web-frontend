@@ -6,8 +6,8 @@ export default function PersonBox({ name, caption = "" }) {
     caption !== "" ? <p className="caption">{caption}</p> : "";
 
   return (
-    <div className="column is-one-fifth person-box">
-      <div className="box is-flex">
+    <div className="column is-one-fifth">
+      <div className="box is-flex person-box">
         <figure className="image">
           <img
             className="is-rounded"

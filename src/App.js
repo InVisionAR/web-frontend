@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import "./App.sass";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Apply from "./pages/apply";
-import "./App.sass";
 
 export default function App() {
   return (

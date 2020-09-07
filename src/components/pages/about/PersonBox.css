@@ -1,5 +1,6 @@
 .person-box {
   text-align: center;
+  box-shadow: none;
 }
 
 .person-name {

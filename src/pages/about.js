@@ -25,6 +25,7 @@ export default function About() {
                   <img
                     className="is-rounded"
                     src="https://bulma.io/images/placeholders/256x256.png"
+                    alt="Shri"
                   />
                 </figure>
                 <p className="title">Shricharan K. S.</p>
@@ -40,6 +41,7 @@ export default function About() {
                   <img
                     className="is-rounded"
                     src="https://bulma.io/images/placeholders/256x256.png"
+                    alt="Tejas"
                   />
                 </figure>
                 <p className="title">Tejas A.</p>

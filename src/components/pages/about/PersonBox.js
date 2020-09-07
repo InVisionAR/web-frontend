@@ -12,6 +12,7 @@ export default function PersonBox({ name, caption = "" }) {
           <img
             className="is-rounded"
             src="https://bulma.io/images/placeholders/128x128.png"
+            alt={name}
           />
         </figure>
         <p className="person-name">{name}</p>

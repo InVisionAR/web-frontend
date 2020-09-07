@@ -14,14 +14,14 @@ export default function About() {
           </div>
         </div>
       </section>
-      <section className="section">
+      <section className="section" id="leaders">
         <div className="container">
           <div className="columns is-centered">
             <div className="column is-4">
               <div className="box is-flex">
-                <figure class="image is-256x256">
+                <figure className="image is-256x256">
                   <img
-                    class="is-rounded"
+                    className="is-rounded"
                     src="https://bulma.io/images/placeholders/256x256.png"
                   />
                 </figure>
@@ -29,16 +29,14 @@ export default function About() {
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
               </div>
             </div>
             <div className="column is-4">
               <div className="box is-flex">
-                <figure class="image is-256x256">
+                <figure className="image is-256x256">
                   <img
-                    class="is-rounded"
+                    className="is-rounded"
                     src="https://bulma.io/images/placeholders/256x256.png"
                   />
                 </figure>
@@ -46,12 +44,35 @@ export default function About() {
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat.
                 </p>
               </div>
             </div>
           </div>
+        </div>
+      </section>
+      <section className="section" id="web-team">
+        <div className="container">
+          <h1 className="title">Web Development Team</h1>
+        </div>
+      </section>
+      <section className="section" id="app-team">
+        <div className="container">
+          <h1 className="title">App Development Team</h1>
+        </div>
+      </section>
+      <section className="section" id="content-team">
+        <div className="container">
+          <h1 className="title">Content Management Team</h1>
+        </div>
+      </section>
+      <section className="section" id="graphics-team">
+        <div className="container">
+          <h1 className="title">Graphic Design Team</h1>
+        </div>
+      </section>
+      <section className="section" id="social-media-team">
+        <div className="container">
+          <h1 className="title">Social Media Management Team</h1>
         </div>
       </section>
     </>

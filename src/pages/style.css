@@ -1,0 +1,21 @@
+.body {
+    background-color: #2B2D42;
+}
+
+.slogan {
+    color: #EF233C;
+    text-align: center;
+    font-size: 30px;
+}
+
+#title {
+    text-align: center;
+    color: #D90429;
+    font-size: 80px;
+}
+
+#start-btn {
+    background-color: #8D99AE;
+    color: #EDF2F4;
+    font-size: 20px;
+}

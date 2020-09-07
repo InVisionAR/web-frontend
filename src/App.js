@@ -27,7 +27,7 @@ export default function App() {
             </a>
           </div>
           <div id="navbar" className="navbar-menu">
-            <div class="navbar-start">
+            <div className="navbar-start">
               <Link className="navbar-item" to="/">
                 Home
               </Link>
@@ -39,12 +39,12 @@ export default function App() {
               </Link>
             </div>
             <div className="navbar-end">
-              <div class="navbar-item">
-                <div class="buttons">
-                  <a class="button is-primary" href="/">
+              <div className="navbar-item">
+                <div className="buttons">
+                  <a className="button is-primary" href="/">
                     <strong>Sign up</strong>
                   </a>
-                  <a class="button is-light" href="/">
+                  <a className="button is-light" href="/">
                     Log in
                   </a>
                 </div>

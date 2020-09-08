@@ -10,7 +10,7 @@ export default function App() {
   return (
     <Router>
       <div>
-        <nav className="navbar is-fixed-top">
+        <nav className="navbar">
           <div className="navbar-brand">
             <a href="/" className="navbar-item">
               <img src="https://bulma.io/images/bulma-logo.png" alt="Logo" />

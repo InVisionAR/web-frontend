@@ -1,0 +1,13 @@
+.is-flex {
+  flex-direction: column;
+  align-items: center;
+}
+
+#leaders .box {
+  box-shadow: none;
+}
+
+#leaders .box > .title {
+  font-size: 25px;
+  margin-top: 15px;
+}

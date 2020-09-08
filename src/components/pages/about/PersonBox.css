@@ -1,0 +1,9 @@
+.person-box {
+  text-align: center;
+  box-shadow: none;
+}
+
+.person-name {
+  margin-top: 15px;
+  font-weight: bold;
+}

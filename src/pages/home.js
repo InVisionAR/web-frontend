@@ -12,6 +12,9 @@ export default function Home() {
             <h1 className="title" id="title">InvisionAR</h1>
             <p className="slogan">InVisioning the future...</p>
             <button class="button is-primary" id="start-btn" to="#"><strong>GET STARTED</strong></button>
+            <div className="footer">
+              <p>&copy; 2020 InVision AR</p>
+            </div>
           </div>
         </div>
       </section>

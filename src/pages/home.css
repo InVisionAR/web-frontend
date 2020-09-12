@@ -1,0 +1,47 @@
+.body {
+    background-color: #2B2D42;
+    position: relative;
+    min-height: 100vh;
+}
+
+.container {
+    padding-bottom: 8rem;
+}
+
+.slogan {
+    color: #EF233C;
+    text-align: center;
+    font-size: 30px;
+}
+
+.logo-img {
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: block;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2B2D42;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+#title {
+    text-align: center;
+    color: #D90429;
+    font-size: 80px;
+}
+
+#start-btn {
+    background-color: #8D99AE;
+    color: #EDF2F4;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}

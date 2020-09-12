@@ -25,7 +25,7 @@ jobs:
         uses: igolopolosov/github-action-release-github-pages@master
         env:
           GITHUB_ACCESS_TOKEN: ${{ secrets.GH_PAGES_DEPLOY_TOKEN }}
-          GITHUB_PAGES_REPO_AUTHOR: founders-invisionar
+          GITHUB_PAGES_REPO_AUTHOR: invisionar
           GITHUB_PAGES_REPO_NAME: invisionar.github.io
           GITHUB_PAGES_RELEASE_BRANCH: master
           PROJECT_BUILD_FOLDER: build

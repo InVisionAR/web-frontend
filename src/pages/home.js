@@ -8,8 +8,10 @@ export default function Home() {
     <>
       <section className="hero is-link is-fullheight-with-navbar">
         <div className="hero-body body">
-          <div className="container">
-            <img src={logo} alt="Logo" class="logo-img" />
+          <div className="container has-text-centered">
+            <figure class="image is-128x128 is-inline-block">
+              <img class="is-rounded" alt="Logo" src={logo} />
+            </figure>
             <h1 className="title" id="title">
               InvisionAR
             </h1>

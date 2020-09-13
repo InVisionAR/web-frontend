@@ -1,0 +1,18 @@
+.body {
+  background-color: #2b2d42;
+}
+
+.slogan {
+  color: #8d99ae;
+}
+
+#title {
+  color: #d90429;
+  font-size: 80px;
+}
+
+#start-btn {
+  background-color: #8d99ae;
+  color: #edf2f4;
+  font-size: 20px;
+}

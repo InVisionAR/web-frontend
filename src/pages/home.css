@@ -1,9 +1,11 @@
 .body {
-  background-color: #2b2d42;
+  background-color: white;
 }
 
 .slogan {
-  color: #8d99ae;
+  color: #2b2d42;
+  font-size: x-large;
+  padding-bottom: 5px;
 }
 
 #title {

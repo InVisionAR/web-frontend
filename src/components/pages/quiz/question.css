@@ -1,0 +1,19 @@
+.question {
+  margin: 50px;
+  border: 1px solid black;
+}
+
+.answer-choices {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-option {
+  margin: 50px;
+}
+
+.numerical-box {
+  margin: 50px;
+}

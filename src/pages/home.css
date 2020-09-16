@@ -8,6 +8,11 @@
   padding-bottom: 5px;
 }
 
+#particles-js {
+  height: 100%;
+  background-color: white;
+}
+
 #title {
   color: #d90429;
   font-size: 80px;

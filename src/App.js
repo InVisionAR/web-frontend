@@ -5,6 +5,7 @@ import "./App.sass";
 import Home from "./pages/home";
 import About from "./pages/about";
 import Apply from "./pages/apply";
+import Quiz from "./pages/quiz";
 
 export default function App() {
   return (
@@ -58,6 +59,9 @@ export default function App() {
         </Route>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/quiz">
+          <Quiz />
         </Route>
         <Route path="/">
           <Home />

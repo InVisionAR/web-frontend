@@ -4,16 +4,22 @@ import "./question.css";
 export default function MultipleChoice(props) {
   return (
     <div className="question">
-      <h3>{props.questionTitle}</h3>
+      <h3 className="question-title">{props.questionTitle}</h3>
       <ul className="answer-choices">
-        {props.answerChoices.map((choice) => {
-          return (
-            <li className="quiz-option">
-              <input type="radio" className="quizOption" name="radioGroup" />
-              {choice}
-            </li>
-          );
-        })}
+        {props.answerChoices
+          ? props.answerChoices.map((choice) => {
+              return (
+                <li className="quiz-option">
+                  <input
+                    type="radio"
+                    className="radio-button"
+                    name="radio-group"
+                  />
+                  {" " + choice}
+                </li>
+              );
+            })
+          : null}
       </ul>
     </div>
   );

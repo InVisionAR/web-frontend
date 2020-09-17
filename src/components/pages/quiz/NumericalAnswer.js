@@ -4,9 +4,9 @@ import "./question.css";
 export default function NumericalAnswer(props) {
   return (
     <div className="question">
-      <h3>{props.questionTitle ? props.questionTitle : "Question"}</h3>
-      <div className="numerical-box">
-        <input type="number" className="quizOption" name="answerGroup" />
+      <h3 className="question-title">{props.questionTitle}</h3>
+      <div className="answer-choices">
+        <input type="number" className="quiz-option" name="answer-group" />
       </div>
     </div>
   );

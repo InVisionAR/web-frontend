@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import logo from "./img/logo-img.png";
 import { Link } from "react-router-dom";
-import Particles from "react-particles-js";
+import Particles from "./Particles";
 
 export default function Home() {
   return (
@@ -24,28 +24,9 @@ export default function Home() {
                 <strong>GET STARTED</strong>
               </button>
             </Link>
+            <Particles />
           </div>
         </div>
-        <Particles
-          params={{
-            particles: {
-              line_linked: {
-                color: "#ef233c",
-              },
-              number: {
-                value: 200,
-                density: {
-                  enable: true,
-                  value_area: 1000,
-                },
-              },
-            },
-          }}
-          style={{
-            width: "100%",
-            background: "#fff",
-          }}
-        />
       </section>
     </>
   );

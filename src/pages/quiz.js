@@ -25,7 +25,9 @@ const NAQ = [
 
 export default function Quiz() {
   return (
+    <section className="quiz-page">
     <div className="container">
+      <h2 className="is-size-1 has-text-centered has-text-white">Time for a Quiz!</h2>
       <div>
         {MCQ.map((question) => {
           return (
@@ -41,6 +43,12 @@ export default function Quiz() {
           return <NumericalAnswer questionTitle={question.questionTitle} />;
         })}
       </div>
+      {/* <div class="field has-text-centered submit-button">
+        <div class="control">
+          <button class="button is-link">Submit</button>
+        </div>
+      </div> */}
     </div>
+    </section>
   );
 }

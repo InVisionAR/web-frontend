@@ -9,14 +9,18 @@ export default function MultipleChoice(props) {
         {props.answerChoices
           ? props.answerChoices.map((choice) => {
               return (
-                <li className="quiz-option">
-                  <input
-                    type="radio"
-                    className="radio-button"
-                    name="radio-group"
-                  />
-                  {" " + choice}
-                </li>
+                <div class="field">
+                  <div class="control">
+                    <label class="radio">
+                      <input
+                        type="radio"
+                        name="question"
+                        className="quiz-option"
+                      />
+                      {" " + choice}
+                    </label>
+                  </div>
+                </div>
               );
             })
           : null}

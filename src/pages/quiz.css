@@ -1,3 +1,7 @@
-body {
+.quiz-page {
   background-color: #3198dc;
+}
+
+.submit-button {
+  margin: 20px;
 }

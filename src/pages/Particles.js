@@ -1,16 +1,16 @@
-import React, { Component } from "react";
+import React, { Component, useState, useEffect } from "react";
 import Particles from "react-particles-js";
 
 class Canvas extends Component {
   state = { width: "0px", height: "0px" };
   componentDidMount() {
-    this.updateWindowDimensions();
-    window.addEventListener("resize", this.updateWindowDimensions);
+    this.useEffect();
+    window.addEventListener("resize", this.useEffect);
   }
   componentWillUnmount() {
-    window.removeEventListener("resize", this.updateWindowDimensions);
+    window.removeEventListener("resize", this.useEffect);
   }
-  updateWindowDimensions = () => {
+  useEffect = () => {
     this.setState({
       width: `${window.innerWidth}px`,
       height: `${window.innerHeight}px`,
@@ -25,7 +25,7 @@ class Canvas extends Component {
         params={{
           particles: {
             number: {
-              value: 30,
+              value: 40,
               density: {
                 enable: true,
                 value_area: 800,
@@ -38,7 +38,7 @@ class Canvas extends Component {
               type: "circle",
               stroke: {
                 width: 0,
-                color: "#000000",
+                color: "#ef233c",
               },
               image: {
                 src: "img/github.svg",
@@ -113,3 +113,7 @@ class Canvas extends Component {
 }
 
 export default Canvas;
+
+{
+  /* updateWindowDimensions */
+}

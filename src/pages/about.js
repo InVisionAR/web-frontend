@@ -55,42 +55,61 @@ export default function About() {
         </div>
       </section>
       <TeamSection name="Web Development Team">
-        <PersonBox name="somebody" caption="Web Development Team Leader" />
-        <PersonBox name="that" />
-        <PersonBox name="I" />
-        <PersonBox name="used" />
-        <PersonBox name="to" />
+        <PersonBox
+          name="Arnav Borborah"
+          caption="Web Development Team Leader"
+        />
+        <PersonBox name="Rohan Kewalramani" />
+        <PersonBox name="Johnny Ni" />
+        <PersonBox name="Sergio Garcia Perez" />
+        <PersonBox name="Venkatesh Kamath N" />
+        <PersonBox name="Arianne Ghislaine Rull" />
+        <PersonBox name="Yong Yan (Crystal) Liang" />
       </TeamSection>
       <TeamSection name="App Development Team">
-        <PersonBox name="somebody" caption="App Development Team Leader" />
-        <PersonBox name="that" />
-        <PersonBox name="I" />
-        <PersonBox name="used" />
-        <PersonBox name="to" />
+        <PersonBox name="Sagar Patil" caption="App Development Team Leader" />
+        <PersonBox name="Srikar Ganti" />
+        <PersonBox name="Amandeep Saxena" />
+        <PersonBox name="Brett Woltz" />
+        <PersonBox name="Abhiram Tamvada" />
+        <PersonBox name="Gautham Hari" />
+        <PersonBox name="Elaine Nie" />
       </TeamSection>
       <TeamSection name="Content Management Team">
         <PersonBox name="somebody" caption="Content Management Team Leader" />
-        <PersonBox name="that" />
-        <PersonBox name="I" />
-        <PersonBox name="used" />
-        <PersonBox name="to" />
+        <PersonBox name="Sahil Sharma" />
+        <PersonBox name="Anisha Ganesh" />
+        <PersonBox name="Kailash Senthilkumar" />
+        <PersonBox name="Eunice Tovar" />
+        <PersonBox name="Anastasija Petrovic " />
+        <PersonBox name="Devish Vaid" />
+        <PersonBox name="Rushi Patel" />
+        <PersonBox name="Parshva Mehta" />
+        <PersonBox name="Kanthi Makineedk" />
+        <PersonBox name="Soumay Garg" />
+        <PersonBox name="Adelene Chan" />
+        <PersonBox name="Bethel Seyoum" />
+        <PersonBox name="Abbas Moosajee" />
+        <PersonBox name="Mia Chen" />
       </TeamSection>
       <TeamSection name="Graphic Design Team">
         <PersonBox name="somebody" caption="Graphic Design Team Leader" />
-        <PersonBox name="that" />
-        <PersonBox name="I" />
-        <PersonBox name="used" />
-        <PersonBox name="to" />
+        <PersonBox name="Manav Chandaka" />
+        <PersonBox name="Katharine Hong" />
+        <PersonBox name="Marwan Abd Elhameed" />
+        <PersonBox name="Hannah Nguyen" />
+        <PersonBox name="Mona Wu" />
       </TeamSection>
       <TeamSection name="Social Media Management Team">
         <PersonBox
           name="somebody"
           caption="Social Media Management Team Leader"
         />
-        <PersonBox name="that" />
-        <PersonBox name="I" />
-        <PersonBox name="used" />
-        <PersonBox name="to" />
+        <PersonBox name="Tiffani Baik" />
+        <PersonBox name="Shubham Kumar" />
+        <PersonBox name="Megan Hua" />
+        <PersonBox name="Alina Zahra" />
+        <PersonBox name="Simran Duggi" />
       </TeamSection>
     </>
   );

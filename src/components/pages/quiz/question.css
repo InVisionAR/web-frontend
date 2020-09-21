@@ -1,0 +1,21 @@
+.question {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: white;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px -6px;
+}
+
+.question-title {
+  font-weight: 500;
+  font-size: 22px;
+  padding: 20px;
+}
+.answer-choices {
+  list-style-type: none;
+}
+
+.quiz-option {
+  margin: 20px;
+}

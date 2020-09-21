@@ -1,0 +1,11 @@
+.quiz-page {
+  background-color: #2b2d42;
+}
+
+.quiz-page .container {
+  padding: 50px;
+}
+
+.submit-button {
+  margin: 20px;
+}

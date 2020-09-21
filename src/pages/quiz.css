@@ -2,6 +2,10 @@
   background-color: #3198dc;
 }
 
+.quiz-page .container {
+  padding: 50px;
+}
+
 .submit-button {
   margin: 20px;
 }

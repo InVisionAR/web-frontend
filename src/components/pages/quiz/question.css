@@ -3,8 +3,10 @@
   margin-bottom: 30px;
   background-color: white;
   padding: 30px;
-  border: 1px solid black;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px -6px;
 }
+
 .question-title {
   font-weight: 500;
   font-size: 22px;

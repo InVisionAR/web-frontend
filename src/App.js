@@ -30,7 +30,7 @@ export default function App() {
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div id="navbar" className={`navbar-menu ${open ? 'is-active' : ''}`}>
+        <div id="navbar" className={`navbar-menu ${open ? "is-active" : ""}`}>
           <div className="navbar-start">
             <Link className="navbar-item" to="/">
               Home

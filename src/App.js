@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.sass";
 import Home from "./pages/home";
@@ -8,6 +8,8 @@ import Apply from "./pages/apply";
 import Quiz from "./pages/quiz";
 
 export default function App() {
+  const [open, setOpen] = useState(false);
+
   return (
     <Router>
       <nav className="navbar is-fixed-top has-shadow">
@@ -17,17 +19,18 @@ export default function App() {
           </a>
           <a
             role="button"
-            className="navbar-burger burger"
+            className={`navbar-burger burger ${open ? "is-active" : ""}`}
             aria-label="menu"
             aria-expanded="false"
             data-target="navbarBasicExample"
+            onClick={() => setOpen(!open)}
           >
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div id="navbar" className="navbar-menu">
+        <div id="navbar" className={`navbar-menu ${open ? "is-active" : ""}`}>
           <div className="navbar-start">
             <Link className="navbar-item" to="/">
               Home

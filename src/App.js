@@ -19,7 +19,7 @@ export default function App() {
           </a>
           <a
             role="button"
-            className="navbar-burger burger"
+            className={`navbar-burger burger ${open ? "is-active" : ""}`}
             aria-label="menu"
             aria-expanded="false"
             data-target="navbarBasicExample"
@@ -30,7 +30,7 @@ export default function App() {
             <span aria-hidden="true"></span>
           </a>
         </div>
-        <div id="navbar" className={`navbar-menu ${open ? 'is-active' : ''}`}>
+        <div id="navbar" className={`navbar-menu ${open ? "is-active" : ""}`}>
           <div className="navbar-start">
             <Link className="navbar-item" to="/">
               Home

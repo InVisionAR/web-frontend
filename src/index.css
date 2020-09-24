@@ -2,3 +2,7 @@ body {
   margin: 0;
   width: 100%;
 }
+
+.navbar-menu {
+  transition: all 0.2s cubic-bezier(0.3, 0.01, 1, -0.09);
+}

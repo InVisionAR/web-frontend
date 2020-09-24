@@ -42,6 +42,12 @@
 # *.iml
 # *.ipr
 
+#Yarn
+yarn.lock
+*.log
+
+#Lock-files
+package-lock.json
 # CMake
 cmake-build-*/
 

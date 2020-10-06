@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import logo from "./img/logo-img.png";
 import { Link } from "react-router-dom";
+import Particles from "./Particles";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
                 <strong>GET STARTED</strong>
               </button>
             </Link>
+            <Particles />
           </div>
         </div>
       </section>

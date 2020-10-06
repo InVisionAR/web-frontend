@@ -1,14 +1,23 @@
 .body {
-  background-color: #2b2d42;
+  background-color: white;
 }
 
 .slogan {
-  color: #8d99ae;
+  color: #2b2d42;
+  font-size: x-large;
+  padding-bottom: 20px;
+  letter-spacing: 5px;
+}
+
+#particles-js {
+  height: 100%;
+  background-color: white;
 }
 
 #title {
   color: #d90429;
   font-size: 80px;
+  letter-spacing: 40px;
 }
 
 #start-btn {

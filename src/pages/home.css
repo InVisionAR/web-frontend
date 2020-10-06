@@ -5,7 +5,8 @@
 .slogan {
   color: #2b2d42;
   font-size: x-large;
-  padding-bottom: 5px;
+  padding-bottom: 20px;
+  letter-spacing: 5px;
 }
 
 #particles-js {
@@ -16,6 +17,7 @@
 #title {
   color: #d90429;
   font-size: 80px;
+  letter-spacing: 40px;
 }
 
 #start-btn {
